@@ -1,0 +1,48 @@
+.wrapperReviews {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 16px;
+  margin-bottom: 15px;
+  background-color: rgb(221, 221, 187);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.reviewItem {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 5px;
+  background-color: rgb(221, 221, 187);
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.7);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.reviewItem:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 1.2);
+}
+
+.authorName {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.content {
+  font-size: 14px;
+  margin: 0;
+}
+
+.content:hover {
+  font-size: 16px;
+}
+
+.noReviews {
+  font-size: 16px;
+  text-align: center;
+}

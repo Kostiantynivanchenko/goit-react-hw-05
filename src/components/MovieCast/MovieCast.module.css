@@ -1,0 +1,51 @@
+.wrapperActor {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 2fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.idActor {
+  background-color: rgb(221, 221, 187);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.imgActor {
+  width: 100px;
+  height: auto;
+  transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1),
+    box-shadow 0.3s ease-in-out;
+  border-radius: 5px;
+}
+
+.imgActor:hover {
+  transform: scale(1.5);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+}
+
+.informActer {
+  text-align: center;
+}
+
+.nameActor {
+  margin: 5px 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.characterActor {
+  font-weight: normal;
+}
+
+.noImage {
+  width: 100px;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
